@@ -28,6 +28,7 @@ API support both **GET** and **POST** requests.
 **Body description**
 
 q : Search query
+
 n : number of answers want in return
 
 ```python
