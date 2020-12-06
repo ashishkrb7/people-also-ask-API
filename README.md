@@ -1,9 +1,9 @@
 <div align="center">
 <a href="https://github.com/ashishcssom/people-also-ask-API/stargazers"><img src="https://img.shields.io/github/stars/ashishcssom/people-also-ask-API?color=2b9348" alt="Stars Badge"/></a>
-<a href="https://github.com/ashishcssom/Face_Mask_Detection_end_to_end_project/network/members"><img src="https://img.shields.io/github/forks/ashishcssom/Face_Mask_Detection_end_to_end_project?color=2b9348" alt="Forks Badge"/></a>
-<a href="https://github.com/ashishcssom/Face_Mask_Detection_end_to_end_project/pulls"><img src="https://img.shields.io/github/issues-pr/ashishcssom/Face_Mask_Detection_end_to_end_project?color=2b9348" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/ashishcssom/Face_Mask_Detection_end_to_end_project/issues"><img src="https://img.shields.io/github/issues/ashishcssom/Face_Mask_Detection_end_to_end_project?color=2b9348" alt="Issues Badge"/></a>
-<a href="https://github.com/ashishcssom/Face_Mask_Detection_end_to_end_project/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/ashishcssom/Face_Mask_Detection_end_to_end_project?color=2b9348"></a>
+<a href="https://github.com/ashishcssom/people-also-ask-API/network/members"><img src="https://img.shields.io/github/forks/ashishcssom/people-also-ask-API?color=2b9348" alt="Forks Badge"/></a>
+<a href="https://github.com/ashishcssom/people-also-ask-API/pulls"><img src="https://img.shields.io/github/issues-pr/ashishcssom/people-also-ask-API?color=2b9348" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/ashishcssom/people-also-ask-API/issues"><img src="https://img.shields.io/github/issues/ashishcssom/people-also-ask-API?color=2b9348" alt="Issues Badge"/></a>
+<a href="https://github.com/ashishcssom/people-also-ask-API/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/ashishcssom/people-also-ask-API?color=2b9348"></a>
 </div>
 
      ____   ___   ____   ____   _      ___       _    _       ___   ____       _     ___   _  _  
