@@ -7,11 +7,11 @@
 > Few days back, I worked on development of search engine for one of the organization, Idea was to build a search engine which can search on custom blob dataset like json, html, pdf, word and ppt files. After a research [Azure cognitive search](https://azure.microsoft.com/en-in/services/search/) perform the best to our case. But due to lack of dataset to create pipline or model to get `people also ask` feature like google and Bing, I was searching for options, then I come across one exciting library names [people_also_ask](https://github.com/lagranges/people_also_ask). This software is bulid on top of that to serve a purpose.
 
 <div align="center">
-<a href="https://github.com/ashishcssom/Face_Mask_Detection_end_to_end_project/stargazers"><img src="https://img.shields.io/github/stars/ashishcssom/Face_Mask_Detection_end_to_end_project?color=2b9348" alt="Stars Badge"/></a>
-<a href="https://github.com/ashishcssom/Face_Mask_Detection_end_to_end_project/network/members"><img src="https://img.shields.io/github/forks/ashishcssom/Face_Mask_Detection_end_to_end_project?color=2b9348" alt="Forks Badge"/></a>
-<a href="https://github.com/ashishcssom/Face_Mask_Detection_end_to_end_project/pulls"><img src="https://img.shields.io/github/issues-pr/ashishcssom/Face_Mask_Detection_end_to_end_project?color=2b9348" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/ashishcssom/Face_Mask_Detection_end_to_end_project/issues"><img src="https://img.shields.io/github/issues/ashishcssom/Face_Mask_Detection_end_to_end_project?color=2b9348" alt="Issues Badge"/></a>
-<a href="https://github.com/ashishcssom/Face_Mask_Detection_end_to_end_project/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/ashishcssom/Face_Mask_Detection_end_to_end_project?color=2b9348"></a>
+<a href="https://github.com/ashishcssom/people-also-ask-API/stargazers"><img src="https://img.shields.io/github/stars/ashishcssom/people-also-ask-API?color=2b9348" alt="Stars Badge"/></a>
+<a href="https://github.com/ashishcssom/people-also-ask-API/network/members"><img src="https://img.shields.io/github/forks/ashishcssom/people-also-ask-API?color=2b9348" alt="Forks Badge"/></a>
+<a href="https://github.com/ashishcssom/people-also-ask-API/pulls"><img src="https://img.shields.io/github/issues-pr/ashishcssom/people-also-ask-API?color=2b9348" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/ashishcssom/people-also-ask-API/issues"><img src="https://img.shields.io/github/issues/ashishcssom/people-also-ask-API?color=2b9348" alt="Issues Badge"/></a>
+<a href="https://github.com/ashishcssom/people-also-ask-API/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/ashishcssom/people-also-ask-API?color=2b9348"></a>
 </div>
 
 This application is free software to scrap the people also ask feature from google and serve as an API which can be utilized in any development/production search engines. This API is hosted on Heroku.
