@@ -21,14 +21,19 @@ This application is free software to scrap the people also ask feature from goog
 
 API support both **GET** and **POST** requests.
 
-- `API url` :   http://127.0.0.1:5000/PAA
+- `API url` :   https://people-also-ask.herokuapp.com/PAA
 - `header`  :   {'content-type': 'application/json'}
 - `body`    :   {"q":"What does an Aruba do?","n":2}
+
+**Body description**
+
+q : Search query
+n : number of answers want in return
 
 ```python
 import requests
 import json
-url = 'http://127.0.0.1:5000/PAA'
+url = 'https://people-also-ask.herokuapp.com/PAA'
 headers = {'content-type': 'application/json'}
 query=json.dumps({"q":"What does an Aruba do?","n":2})
 output = requests.post(url, data = query,verify=True,headers=headers)
