@@ -1,0 +1,4 @@
+requests==2.24.0
+Flask==1.0.2
+people_also_ask==0.0.5
+gunicorn

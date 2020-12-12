@@ -5,7 +5,7 @@ import urllib.parse
 def search(search_term,item=5):
     """ method to search from the google and organize the output """
     try:
-        paa=people_also_ask.get_related_questions(search_term,item+1)
+        paa=people_also_ask.get_related_questions(search_term,item)
         output=[]
         for i in paa:
             response=people_also_ask.get_answer(i)
