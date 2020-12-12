@@ -1,20 +1,27 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
+"""
+.  .     .               .   .                                   .
+|\ |     |               |   |                                   |             o  ,- o
+| \| ,-: |-  . . ;-. ,-: |   | ,-: ;-. ,-: . . ,-: ,-: ,-.   ,-. | ,-: ,-. ,-. .  |  . ,-. ;-.
+|  | | | |   | | |   | | |   | | | | | | | | | | | | | |-'   |   | | | `-. `-. |  |- | |-' |
+'  ' `-` `-' `-` '   `-` '   ' `-` ' ' `-| `-` `-` `-| `-'   `-' ' `-` `-' `-' '  |  ' `-' '
+                                       `-'         `-'                           -'
+"""
 
 from flask import Flask,request
-from src.Engine import search
+import pandas as pd
 import json
-
+import src
 app = Flask(__name__)
-
-@app.route('/PAA', methods = ['POST','GET'])
-def main():
-    """ Web service for getting people also ask from google (with some customization) """
+ 
+@app.route('/Request', methods = ['POST','GET'])
+def RequestHandler():
+    """ method to predict commitment """
+    content = request.get_json()
+    Data=pd.DataFrame([content])
     try:
-        content = request.get_json()
-        Result=json.dumps({"PAA":search(content.get("q"),int(content.get("n")-1))})
+        output=src.main(Data,filename="Request")
     except:
-        Result=json.dumps({"PAA" : ""})
-    return(Result)
-if __name__=="__main__":
-    app.run(debug=True)
+        output=[]
+    return(output)
+
+app.run(host='0.0.0.0', port= 80,debug=True,threaded=True)
