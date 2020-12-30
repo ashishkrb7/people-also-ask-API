@@ -1,5 +1,4 @@
 requests==2.24.0
 Flask==1.0.2
-beautifulsoup4==4.9.3
 people_also_ask==0.0.5
 gunicorn
