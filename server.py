@@ -3,7 +3,6 @@
 
 from flask import Flask,request,jsonify
 from src.Engine import search
-from FeatureSnippet import search as searchFS
 import json
 
 app = Flask(__name__)
@@ -16,19 +15,6 @@ def main():
         Result=json.dumps({"PAA":search(content.get("q"),int(content.get("n")-1))})
     except:
         Result=json.dumps({"PAA" : ""})
-    return(Result)
-
-@app.route('/FeatureSnippet', methods = ['POST','GET'])
-def FeatureSnippet():
-    """
-    Web service for extracting feature snippet from google
-    input : {"q":"how to setup aruba switch"}
-    """
-    try:
-        content = request.get_json()
-        Result=jsonify({"FS":searchFS(content.get("q"))}),200
-    except:
-        Result=jsonify({"FS" : ""}),404
     return(Result)
 
 if __name__=="__main__":
