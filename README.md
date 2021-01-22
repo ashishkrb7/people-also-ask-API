@@ -45,7 +45,7 @@ output = requests.post(url, data = query,verify=True,headers=headers)
 
 Ashish Kumar
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the ['MIT License'](https://github.com/ashishcssom/people-also-ask-API/blob/main/LICENSE). See ``LICENSE`` for more information.
 
 [![LinkedIn](https://img.shields.io/badge/-Ashish%20Kumar-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/ashishk766/)](https://www.linkedin.com/in/ashishk766/) 
 [![Gmail](https://img.shields.io/badge/-Ashish%20Kumar-c14438?style=social&logo=Gmail&logoColor=red&link=mailto:ashish.krb7@gmail.com)](mailto:ashish.krb7@gmail.com) 
