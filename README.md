@@ -55,5 +55,3 @@ Distributed under the ['MIT License'](https://github.com/ashishcssom/people-also
 <a href="https://github.com/ashishkrb7/people-also-ask-API/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ashishkrb7/people-also-ask-API" />
 </a>
-
-Made with [contributors-img](https://contrib.rocks).
